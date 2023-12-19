@@ -1,0 +1,94 @@
+.homePage {
+  margin: auto;
+  max-width: 1700px;
+  padding: 20px;
+}
+
+.homePage .homePageMainVideoPlay {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.homePage .paragraphContentHead {
+  display: flex;
+  align-items: center;
+  color: #8d8d8d;
+  max-width: 70%;
+  margin: auto;
+  gap: 50px;
+}
+
+.homePage .paragraphContentHead div {
+  display: grid;
+  gap: 20px;
+  font-size: 22px;
+  line-height: 130%;
+}
+
+.homePage .paragraphContentHead img {
+  max-width: 450px;
+  height: auto;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.paragraphContentServices {
+  display: grid;
+  gap: 20px;
+  color: #8d8d8d;
+  text-align: center;
+  max-width: 70%;
+  margin: 70px auto 0 auto;
+  font-size: 22px;
+  line-height: 130%;
+}
+
+.paragraphContentServices h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.paragraphContentServices a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.paragraphContentServices p {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1450px) {
+  .homePage .paragraphContentHead p {
+    font-size: 18px;
+  }
+  .homePage .paragraphContentServices p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .homePage .paragraphContentHead {
+    display: grid;
+    gap: 30px;
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .homePage .paragraphContentHead img {
+    width: 100%;
+  }
+  .homePage .paragraphContentServices {
+    max-width: 80%;
+  }
+  .homePage {
+    padding: 0;
+  }
+}

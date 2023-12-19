@@ -1,0 +1,145 @@
+.aboutUs {
+  margin: auto;
+  max-width: 80%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.aboutUs p {
+  line-height: 130%;
+  font-size: 22px;
+  color: white;
+  text-align: justify;
+}
+
+.aboutUs img {
+  border-radius: 20px;
+  width: 100%;
+  margin: 20px auto 0 auto;
+  display: block;
+}
+
+.aboutUs .paragraphContentUniversal {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center;
+  gap: 30px;
+}
+
+.aboutUs .paragraphContentUniversal div h3 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.aboutUs .paragraphContentUniversal div p {
+  text-align: justify;
+  font-size: 18px;
+  max-width: 600px;
+  color: rgb(182, 182, 182);
+  line-height: 120%;
+}
+
+.aboutUs .paragraphContentUniversal img {
+  max-width: 600px;
+}
+
+.aboutUs .storyLineContent {
+  max-width: 925px;
+  margin: auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 7px 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.aboutUs .storyLineContent .div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.aboutUs .storyLineContent .div2 {
+  grid-area: 1 / 2 / 6 / 3;
+  background-color: #333333;
+  border-radius: 99px;
+}
+.aboutUs .storyLineContent .div3 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.aboutUs .storyLineContent .div4 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.aboutUs .storyLineContent .div5 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+.aboutUs .storyLineContent .div6 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.aboutUs .historyEventBox {
+  display: grid;
+  color: white;
+  max-width: 500px;
+}
+
+.aboutUs .historyEventBox .head {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 30px;
+}
+
+.aboutUs .historyEventBox .head h1 {
+  font-size: 40px;
+}
+
+.aboutUs .historyEventBox p {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(182, 182, 182);
+}
+
+@media only screen and (max-width: 1100px) {
+  .aboutUs .paragraphContentUniversal {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .aboutUs .paragraphContentUniversal div p {
+    max-width: 100%;
+  }
+  .aboutUs .paragraphContentUniversal img {
+    order: 2;
+  }
+  .aboutUs .paragraphContentUniversal div {
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutUs .paragraphContentUniversal {
+    margin-top: 50px;
+  }
+  .aboutUs p {
+    font-size: 18px;
+  }
+  .aboutUs .storyLineContent {
+    grid-template-columns: 7px 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 100px auto 0 auto;
+    max-width: fit-content;
+  }
+
+  .aboutUs .storyLineContent .div1 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .aboutUs .storyLineContent .div2 {
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  .aboutUs .storyLineContent .div3 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .aboutUs .storyLineContent .div4 {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+}

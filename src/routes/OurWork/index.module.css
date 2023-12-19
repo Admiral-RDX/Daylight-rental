@@ -1,0 +1,44 @@
+.ourWork {
+  margin: auto;
+  max-width: 80%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.ourWork p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.ourWork h3 {
+  color: #909090;
+  font-size: 25px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.ourWork .imageFilmContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.ourWork .imageFilmContainer img {
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+  .ourWork .imageFilmContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .ourWork p {
+    font-size: 5vw;
+  }
+}
