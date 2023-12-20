@@ -27,20 +27,6 @@ export const MasterFooter = component$(() => {
         <div class={styles.footerItemPointer}>
           <h3>OPENING HOURS</h3>
           <p>Mon - Fri 8:00 am - 4:00 pm</p>
-          <a
-            onClick$={() => {
-              redirect("/Contacts");
-            }}
-          >
-            Careers
-          </a>
-          <a
-            onClick$={() => {
-              redirect("/GDPR");
-            }}
-          >
-            GDPR & Data Privacy
-          </a>
         </div>
       </div>
       <div class={styles.footerSocialIcons}>
@@ -72,6 +58,22 @@ export const MasterFooter = component$(() => {
           src={Pinterest}
           alt=""
         />
+      </div>
+      <div class={styles.detailInfo}>
+        <a
+          onClick$={() => {
+            redirect("/Contacts");
+          }}
+        >
+          Careers
+        </a>
+        <a
+          onClick$={() => {
+            redirect("/Privacy-policy");
+          }}
+        >
+          GDPR & Data Privacy
+        </a>
       </div>
       <p class={styles.copyright}>
         &copy; 2023 @daylight rental. All rights reserved.

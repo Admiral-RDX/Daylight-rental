@@ -26,11 +26,6 @@ export default component$(() => {
         <img src="/pageImages/DLR_creamsource.png" alt="" />
         <img src="/pageImages/DLR_litegear.png" alt="" />
         <img src="/pageImages/DLR_astera.png" alt="" />
-        <img src="/pageImages/DLR_creamsource.png" alt="" />
-        <img src="/pageImages/DLR_litegear.png" alt="" />
-        <img src="/pageImages/DLR_astera.png" alt="" />
-        <img src="/pageImages/DLR_creamsource.png" alt="" />
-        <img src="/pageImages/DLR_litegear.png" alt="" />
       </div>
       <div class={styles.paragraphContentUniversal}>
         <img src="/pageImages/sampleImage.png" alt="" />
@@ -56,7 +51,7 @@ export default component$(() => {
             in knowing that your satisfaction is our top priority.
           </p>
         </div>
-        <img src="/pageImages/sampleImage.png" alt="" />
+        <img src="/pageImages/transportation.png" alt="" />
       </div>
       <div class={styles.paragraphContentUniversal}>
         <img src="/pageImages/sampleImage.png" alt="" />
@@ -81,7 +76,7 @@ export default component$(() => {
             technical issues or concerns you might have.
           </p>
         </div>
-        <img src="/pageImages/sampleImage.png" alt="" />
+        <img src="/pageImages/real-time.png" alt="" />
       </div>
     </div>
   );

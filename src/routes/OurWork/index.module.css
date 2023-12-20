@@ -31,7 +31,63 @@
   width: 100%;
   max-width: 400px;
   cursor: pointer;
+  border-radius: 24px;
 }
+
+.filmContainer {
+  position: relative;
+  width: 100%; /* make it responsive */
+  max-width: 300px; /* you can adjust this */
+  margin: auto;
+}
+
+.filmContainer .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  z-index: 1; /* Ensure it's behind the text */
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.filmContainer:hover .background {
+  opacity: 1;
+}
+
+.filmContainer img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease;
+}
+
+.filmContainer h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-color: transparent;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.filmContainer:hover h3 {
+  opacity: 1;
+  z-index: 2;
+}
+
+.filmContainer:hover img {
+  filter: blur(8px);
+}
+
 
 @media only screen and (max-width: 850px) {
   .ourWork .imageFilmContainer {

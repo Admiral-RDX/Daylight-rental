@@ -13,24 +13,26 @@ export default component$(() => {
         </p>
         <h3>Commercials</h3>
         <div class={styles.imageFilmContainer}>
-          <img src="/pageImages/tattooist.png" alt="" />
-          <img src="/pageImages/vanHelsing.png" alt="" />
-          <img src="/pageImages/tattooist.png" alt="" />
-          <img src="/pageImages/vanHelsing.png" alt="" />
-        </div>
-        <h3>Commercials</h3>
-        <div class={styles.imageFilmContainer}>
-          <img src="/pageImages/tattooist.png" alt="" />
-          <img src="/pageImages/vanHelsing.png" alt="" />
-          <img src="/pageImages/tattooist.png" alt="" />
-          <img src="/pageImages/vanHelsing.png" alt="" />
-        </div>
-        <h3>Commercials</h3>
-        <div class={styles.imageFilmContainer}>
-          <img src="/pageImages/tattooist.png" alt="" />
-          <img src="/pageImages/vanHelsing.png" alt="" />
-          <img src="/pageImages/tattooist.png" alt="" />
-          <img src="/pageImages/vanHelsing.png" alt="" />
+          <div class={styles.filmContainer}>
+            <div class={styles.background}></div>
+            <h3>The tattoo of Auschwitz</h3>
+            <img src="/pageImages/tattooist.png" alt="" />
+          </div>
+          <div class={styles.filmContainer}>
+            <div class={styles.background}></div>
+            <h3>The tattoo of Auschwitz</h3>
+            <img src="/pageImages/vanHelsing.png" alt="" />
+          </div>
+          <div class={styles.filmContainer}>
+            <div class={styles.background}></div>
+            <h3>The tattoo of Auschwitz</h3>
+            <img src="/pageImages/tattooist.png" alt="" />
+          </div>
+          <div class={styles.filmContainer}>
+            <div class={styles.background}></div>
+            <h3>The tattoo of Auschwitz</h3>
+            <img src="/pageImages/vanHelsing.png" alt="" />
+          </div>
         </div>
       </div>
     </>

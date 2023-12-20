@@ -1,0 +1,22 @@
+.GDPRcontainer {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  color: white;
+}
+
+.GDPRcontainer h3 {
+  font-size: 25px;
+}
+
+a {
+  color: rgb(38, 116, 194);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.GDPRcontainer p {
+  font-size: 18px;
+  color: rgb(133, 133, 133);
+}
